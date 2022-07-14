@@ -1,0 +1,2 @@
+tuning---> C#,F#,B,E,G#,C#
+	rythm----> Am, F, Gm

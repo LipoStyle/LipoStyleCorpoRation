@@ -1,0 +1,112 @@
+html {
+  background-image: url(img/indexBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+body {
+  opacity: 0.9;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/*Here we style the main body*/
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #eff150;
+  height: 90%;
+}
+.main-body .section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .section2 {
+  flex: 2 0 0;
+}
+.main-body .section1,
+.main-body .section3 {
+  margin: 5px;
+  padding: 0;
+  border: 1px solid #000000be;
+  border-radius: 62px;
+  background: linear-gradient(145deg, #000000e1, #000000be);
+  box-shadow: 33px 33px 77px #18161e, -33px -33px 77px #262230;
+  display: flex;
+  flex-direction: column;
+}
+/*footer-header styling*/
+footer {
+  margin: 5px;
+  padding: 0;
+  border: 1px solid #000000be;
+  border-radius: 62px;
+  background: linear-gradient(145deg, #000000e1, #000000be);
+  box-shadow: 33px 33px 77px #18161e, -33px -33px 77px #262230;
+  display: flex;
+  justify-content: center;
+}
+footer div {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/*socila media styling */
+.social-media p {
+  margin: 10px;
+  padding: 0;
+}
+.social-media .copyright {
+  font-size: 32px;
+}
+.social-media #find-us {
+  color: #778116;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.social-media .instagram {
+  background-image: url(img/2.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .instagram:hover {
+  background-image: url(img/2hover.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .facebook {
+  background-image: url(img/3.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .facebook:hover {
+  background-image: url(img/3hover.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .youtube {
+  background-image: url(img/4.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .youtube:hover {
+  background-image: url(img/4hover.png);
+  height: 45px;
+  width: 52px;
+}

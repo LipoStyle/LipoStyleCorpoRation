@@ -1,0 +1,122 @@
+html{
+  padding: 0;
+  margin: 0;
+  color: blanchedalmond;
+  font-size: 24px;
+  background-image: url(img/background.jpg);
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+/*headerstyling*/
+header nav {
+  width: 100%;
+}
+header nav ul {
+  margin: 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+header nav ul li:nth-child(1) a:hover {
+  color: #d1534d;
+}
+header nav ul li:nth-child(2) a:hover {
+  color: #aeda46;
+}
+header nav ul li:nth-child(3) a:hover {
+  color: #50b3c0;
+}
+header nav ul li:nth-child(4) a:hover {
+  color: #b65da3;
+}
+header nav ul li:nth-child(5) a:hover {
+  color: #464e77;
+}
+.main-body{
+  height: 85vh;
+}
+.books{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+.books li{
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+}
+/*footer-header styling*/
+footer,
+header {
+  margin: 5px;
+  padding: 0;
+  border: 1px solid #000000be;
+  border-radius: 62px;
+  background: linear-gradient(145deg, #000000e1, #000000be);
+  box-shadow: 33px 33px 77px #18161e, -33px -33px 77px #262230;
+  display: flex;
+  justify-content: center;
+}
+footer div {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/*socila media styling */
+.social-media p {
+  margin: 10px;
+  padding: 0;
+}
+.social-media .copyright {
+  font-size: 32px;
+}
+.social-media #find-us {
+  color: #778116;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.social-media .instagram {
+  background-image: url(../../img/2.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .instagram:hover {
+  background-image: url(../../img/2hover.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .facebook {
+  background-image: url(../../img/3.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .facebook:hover {
+  background-image: url(../../img/3hover.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .youtube {
+  background-image: url(../../img/4.png);
+  height: 45px;
+  width: 52px;
+}
+.social-media .youtube:hover {
+  background-image: url(../../img/4hover.png);
+  height: 45px;
+  width: 52px;
+}
