@@ -7,7 +7,7 @@ function ItemMenu(props){
 // creating the navigation bar
 function Navbar(){
   return(
-      <ul class="menuSection">
+      <ul className="menuSection">
         <ItemMenu name="Home" url="index.html"/>
         <ItemMenu name="Portfolio" url="#"/>
         <ItemMenu name="Gaming" url="pages/gaming/gaming.html"/>
@@ -20,7 +20,7 @@ function Navbar(){
 // creating the logo section
 function LogoSection(props){
   return (
-    <div class="logoSection">
+    <div className="logoSection">
       <img src={props.url}></img>
     </div>
   )
@@ -28,10 +28,10 @@ function LogoSection(props){
 // creating the burger menu section
 function BurgerComponent(){
   return (
-    <div class="burgerMenu">
-      <span class="bar1"></span>
-      <span class="bar2"></span>
-      <span class="bar3"></span>
+    <div className="burgerMenu">
+      <span className="bar1"></span>
+      <span className="bar2"></span>
+      <span className="bar3"></span>
     </div>
   )
 }

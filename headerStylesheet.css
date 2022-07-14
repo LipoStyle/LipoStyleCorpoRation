@@ -12,8 +12,8 @@ header{
   display: flex;
 }
 .logoSection img{
-  width: 200;
-  height: 150px;
+  width: 280px;
+  height: 90px;
 }
 /* menu section */
 .menuSection {
@@ -23,7 +23,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: .4rem;
 }
 .menuSection li{
   text-align: center;
@@ -67,16 +66,16 @@ header{
   /* -webkit-transform: rotate(45deg) translate(-8px, -8px); */
   transform: rotate(45deg) translate(-.25em, -.25em);
 }
-@media (max-width: 860px){
+@media (max-width: 960px){
 
   .logoSection{
     width: 80%;
     justify-content: flex-start;
   }
   .logoSection img{
-    width: 310px;
-    height: 90px;
-    margin-left: -1rem;
+    width: 410px;
+    height: 70px;
+    margin-left: -1.8rem;
   }
   .menuSection{
     padding: 0;
@@ -110,3 +109,10 @@ header{
   }
 }
 
+@media (max-width: 540px){
+  .logoSection img{
+    width: 210px;
+    height: 70px;
+    margin-left: 0;
+  }
+}
