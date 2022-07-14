@@ -39,7 +39,7 @@ function BurgerComponent(){
 function HeaderSection(){
   return(
     <>
-      <LogoSection url="img/km2.png" />
+      <LogoSection url="img/header/km2R.png" />
       <Navbar />
      <BurgerComponent />
     </>
@@ -53,7 +53,6 @@ ReactDOM.render(
 // burger menu section for onclickevent
 const burger = document.querySelector(".burgerMenu");
 const menu = document.querySelector(".menuSection");
-console.log(burger);
 burger.addEventListener("click", ()=>{
   burger.classList.toggle("change");
   menu.classList.toggle("active");
