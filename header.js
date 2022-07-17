@@ -17,6 +17,20 @@ function Navbar(){
     </ul>
   )
 }
+// reterting a logo based on page width
+function settingLogo(){
+  let logoURL = "";
+
+  if(window.innerWidth > 960){
+    logoURL = "img/header/ena.png"
+  } else if((window.innerWidth <= 960) && (window.innerWidth > 560)) {
+    logoURL = "img/header/duo.png";
+  } else (
+    logoURL = "img/header/tria.png"
+  )
+
+  return logoURL;
+}
 // creating the logo section
 function LogoSection(props){
   return (
@@ -39,7 +53,7 @@ function BurgerComponent(){
 function HeaderSection(){
   return(
     <>
-      <LogoSection url="img/header/km2R.png" />
+      <LogoSection url={settingLogo()} />
       <Navbar />
      <BurgerComponent />
     </>
