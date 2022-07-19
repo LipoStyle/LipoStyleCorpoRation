@@ -8,12 +8,12 @@ function ItemMenu(props){
 function Navbar(){
   return(
       <ul className="menuSection">
-        <ItemMenu name="Home" url="index.html"/>
-        <ItemMenu name="Portfolio" url="pages/portfolio/portfolio.html"/>
-        <ItemMenu name="Gaming" url="pages/gaming/gaming.html"/>
-        <ItemMenu name="Music" url="pages/music/music.html"/>
-        <ItemMenu name="Books" url="pages/Books/books.html"/>
-        <ItemMenu name="Gymnastics" url="pages/gymnastics/gymnastics.html"/>
+        <ItemMenu name="Home" url="../../index.html"/>
+        <ItemMenu name="Portfolio" url="portfolio.html"/>
+        <ItemMenu name="Gaming" url="../gaming/gaming.html"/>
+        <ItemMenu name="Music" url="../music/music.html"/>
+        <ItemMenu name="Books" url="../books/books.html"/>
+        <ItemMenu name="Gymnastics" url="../gymnastics/gymnastics.html"/>
     </ul>
   )
 }

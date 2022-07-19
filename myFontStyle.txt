@@ -1,0 +1,15 @@
+/* 
+  font-family: 'Bad Script', cursive;
+  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Cormorant SC', serif;
+  font-family: 'Courgette', cursive;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Henny Penny', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'Splash', cursive;
+  */

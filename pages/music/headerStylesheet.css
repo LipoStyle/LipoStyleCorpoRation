@@ -23,7 +23,7 @@ header{
   align-items: center;
 }
 .logoUrl{
-  content: url(img/header/ena.png);
+  content: url(../../img/header/ena.png);
 }
 /* menu section */
 .menuSection {
@@ -93,7 +93,7 @@ header{
     padding-left: .6rem;
   }
   .logoUrl{
-    content: url(img/header/duo.png);
+    content: url(../../img/header/duo.png);
   }
   .menuSection{
     padding: 0;
@@ -140,6 +140,6 @@ header{
     justify-content: flex-start;
   }
   .logoUrl{
-    content: url(img/header/tria.png);
+    content: url(../../img/header/tria.png);
   }
 } 
