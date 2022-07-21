@@ -12,7 +12,7 @@ function Navbar(){
         <ItemMenu name="Portfolio" url="pages/portfolio/portfolio.html"/>
         <ItemMenu name="Gaming" url="pages/gaming/gaming.html"/>
         <ItemMenu name="Music" url="pages/music/music.html"/>
-        <ItemMenu name="Books" url="pages/Books/books.html"/>
+        <ItemMenu name="Books" url="pages/books/books.html"/>
         <ItemMenu name="Gymnastics" url="pages/gymnastics/gymnastics.html"/>
     </ul>
   )
