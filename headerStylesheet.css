@@ -70,7 +70,7 @@ header{
   height: 5px;
   border-radius: .1em;
   margin: 0.1em;
-  background-color: rgb(233, 223, 207);
+  background-color: #e9dfcf;
   transition: 0.4s;
 }
 
@@ -126,7 +126,6 @@ header{
   }
   .active{
     top: 0;
-
     height: 100%;
   }
   .burgerMenu{
